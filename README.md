@@ -33,12 +33,13 @@ This lightweight web app lets users evaluate how strong their password is and ge
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/password-strength-checker.git
-   cd password-strength-checker
+   git clone https://github.com/Girinadh007/password-strength-checker.git
+   cd Password-Strength-Checker
 2. Open index.html in your browser:
 
 open index.html     # Mac
 start index.html    # Windows
+xdg-open index.html #Linux
 Or just double-click the file in your file manager.
 
 📄 License
