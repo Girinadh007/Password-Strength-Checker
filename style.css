@@ -1,0 +1,80 @@
+body {
+  background: #0c0f1a;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main-container {
+  background: rgba(0, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffff44;
+  border: 2px solid #00ffff44;
+  width: 360px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #00ffff;
+}
+
+
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #1a1f2a;
+  color: #fff;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #00ffff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00ffff;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #00cccc;
+}
+
+.comment-text {
+  margin-top: -10px;
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  min-height: 20px;
+}
